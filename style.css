@@ -1,0 +1,17 @@
+body {
+    font-family: BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1.1em; padding: 0 1em;
+}
+a:not(:hover) {text-decoration: none;}
+ul {padding: 0;}
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0.2em;
+}
+li .icon, li .noicon {min-height: 1.5em; min-width: 2em;}
+li .icon {background-size: 1.5em; background-repeat: no-repeat;}
+{% for klass, data in icons.items() %}
+.{{klass}} .icon {background-image: url('{{data}}');}
+{% endfor %}

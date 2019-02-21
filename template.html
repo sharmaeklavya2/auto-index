@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Index of {{root}}</title>
+{{style}}
+</head>
+<body>
+    <h1>Index of {{root}}</h1>
+
+    <ul>
+        {% for name, klass, target in items %}
+            <li{% if klass %} class="{{klass}}"{% endif %}>
+            <span class="{% if klass in icons %}icon{% else %}noicon{% endif %}"></span>
+                <a href="{{name}}"{% if target %} target="{{target}}"{% endif %}>{{name}}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

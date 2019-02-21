@@ -1,0 +1,5 @@
+{
+    "pdf": ["pdf"],
+    "image": ["png", "jpg", "svg", "gif", "tiff"],
+    "archive": ["zip", "tgz", "tar", "gz", "rar", "xz", "bz2", "lzma", "7z", "cab"]
+}
