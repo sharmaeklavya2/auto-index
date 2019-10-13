@@ -25,8 +25,11 @@ only required icons are loaded.
 
 * To exclude an automatic index from being created in a directory,
 place a `.noindex` file in that directory.
-* To exclude a directory from being visible in an index,
+This is useful if you created index.html manually and don't want auto-index to overwrite it.
+* To exclude a file/directory from being visible in an index,
 set its read permission for others (`S_IROTH`) to false.
+This is useful if you want to prevent others from
+finding out about the existence of a file/directory.
 
 ### Credits
 
