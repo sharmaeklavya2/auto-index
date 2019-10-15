@@ -100,7 +100,7 @@ def get_file_type(root, name, is_dir):
 
 
 def get_link_target(root, name, is_dir):
-    return None if is_dir else '_blank'
+    return None if (is_dir or name.endswith('.html')) else '_blank'
 
 
 def minify(s):
