@@ -34,7 +34,7 @@ ICON_MIME_TYPE = {
 
 STYLE_FILE_NAME = 'index-style.css'
 IGNORES.add(STYLE_FILE_NAME)
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 
 
 parser = argparse.ArgumentParser(description=__doc__)
