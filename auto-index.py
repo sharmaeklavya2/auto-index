@@ -41,7 +41,8 @@ parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('dirpath')
 parser.add_argument('--template')
 parser.add_argument('--style')
-parser.add_argument('--external-style', action='store_true', default=False)
+parser.add_argument('--internal-style', dest='external_style',
+    action='store_false', default=True)
 parser.add_argument('--icons-dir')
 args = parser.parse_args(None if __name__ == '__main__' else [])
 

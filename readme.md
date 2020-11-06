@@ -13,9 +13,6 @@ Recursively generate a directory listing for every directory.
 ### Features
 
 * Looks better than apache and nginx default server index pages.
-* No static assets required on deployment
-(but you can optionally use the `--external-style` flag to put
-`index-style.css` at the root to take advantage of caching).
 * Lightweight: no JavaScript required; CSS less than 0.5 KB.
 * SVG icons: included as
 [data URLs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs);
