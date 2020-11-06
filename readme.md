@@ -8,7 +8,7 @@ Recursively generate a directory listing for every directory.
 
 ### How to run
 
-    ./index.py <dirpath>
+    ./auto-index.py <dirpath>
 
 ### Features
 
