@@ -13,13 +13,13 @@ li {
 li .icon, li .noicon {min-height: 1.5em; min-width: 2em;}
 li .icon {background-size: 1.5em; background-repeat: no-repeat;}
 
-body {background: rgb(250, 250, 250); color: rgb(50, 50, 50);}
-a {color: rgb(3, 102, 214);}
-a:visited {color: rgb(100, 0, 150);}
+body {background: #fafafa; color: #323232;}
+a {color: #0366d6;}
+a:visited {color: #640096;}
 @media (prefers-color-scheme: dark) {
-    body {background: rgb(27, 30, 32); color: rgb(220, 220, 220);}
-    a {color: rgb(65, 175, 235);}
-    a:visited {color: rgb(150, 100, 230);}
+    body {background: #1b1e20; color: silver;}
+    a {color: #8ab4f8;}
+    a:visited {color: #c58af9;}
 }
 {% for klass, data in icons.items() %}
 .{{klass}} .icon {background-image: url('{{data}}');}
