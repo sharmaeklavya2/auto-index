@@ -13,11 +13,11 @@ li {
 li .icon, li .noicon {min-height: 1.5em; min-width: 2em;}
 li .icon {background-size: 1.5em; background-repeat: no-repeat;}
 
-body {background: #fafafa; color: #323232;}
-a {color: #0366d6;}
-a:visited {color: #640096;}
+body {color: #202020;}
+a {color: #1a0dab;}
+a:visited {color: #681da8;}
 @media (prefers-color-scheme: dark) {
-    body {background: #1b1e20; color: silver;}
+    body {background: #1b1e20; color: #c8c8c8;}
     a {color: #8ab4f8;}
     a:visited {color: #c58af9;}
 }
